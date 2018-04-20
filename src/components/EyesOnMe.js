@@ -5,11 +5,14 @@ class EyesOnMe extends React.Component {
   constructor() {
     super(props)
 
+    function keyUp () {
+      
+    }
   }
 
   render () {
     return (
-
+      <input type="password"/>
     )
   }
 
