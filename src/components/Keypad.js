@@ -3,7 +3,7 @@ import React from 'react'
 
 class Keypad extends React.Component {
 
-    function keyUp () {
+     keyUp = function () {
       console.log('Entering password...')
     }
 
