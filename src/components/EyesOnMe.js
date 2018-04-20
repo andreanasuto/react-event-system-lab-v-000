@@ -5,9 +5,7 @@ class EyesOnMe extends React.Component {
 
   render () {
     return (
-      <div>
-        <input type="password"/>
-      </div>
+      <p> hello </p>
     )
   }
 
