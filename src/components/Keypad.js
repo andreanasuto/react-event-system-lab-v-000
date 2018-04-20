@@ -4,7 +4,7 @@ import React from 'react'
 class Keypad extends React.Component {
   constructor() {
     super(props)
-    
+
     function keyUp () {
       console.log('Entering password...')
     }
@@ -13,7 +13,7 @@ class Keypad extends React.Component {
   render () {
     return (
       <div>
-        <I am keypad
+        <input onSubmit={this.keyUp} type="password"/>
       </div>
     )
   }
