@@ -5,7 +5,7 @@ class EyesOnMe extends React.Component {
 
   render () {
     return (
-      <p> hello </p>
+      <button> </button>
     )
   }
 
