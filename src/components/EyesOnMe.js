@@ -6,7 +6,7 @@ class EyesOnMe extends React.Component {
     super(props)
 
     function keyUp () {
-      
+      console.log('Entering password...')
     }
   }
 
