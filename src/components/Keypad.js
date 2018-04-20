@@ -8,7 +8,9 @@ class Keypad extends React.Component {
 
   render () {
     return (
-
+      <div>
+        <I am keypad
+      </div>
     )
   }
 
