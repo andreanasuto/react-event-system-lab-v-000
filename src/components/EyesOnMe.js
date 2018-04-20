@@ -12,7 +12,7 @@ class EyesOnMe extends React.Component {
 
   render () {
     return (
-      <input type="password"/>
+      <input onSubmit={this.keyUp} type="password"/>
     )
   }
 
